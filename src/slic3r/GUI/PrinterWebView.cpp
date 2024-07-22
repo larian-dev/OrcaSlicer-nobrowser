@@ -23,7 +23,7 @@ namespace GUI {
 PrinterWebView::PrinterWebView(wxWindow *parent)
         : wxPanel(parent, wxID_ANY, wxDefaultPosition, wxDefaultSize)
  {
-        return;
+    //    return;
     wxBoxSizer* topsizer = new wxBoxSizer(wxVERTICAL);
 
       // Create the webview
